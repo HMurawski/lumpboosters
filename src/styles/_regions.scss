@@ -1,0 +1,30 @@
+.regions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__h1 {
+        font-size: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    &__h2 {
+        font-size: 1.7rem;
+    }
+    &__lump-list{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    &__lump-item{
+        font-size: 1.3rem;
+        padding: 20px 10px;
+    }
+    &__lump-link {
+        text-decoration: none;
+        color: wheat;
+    }
+}

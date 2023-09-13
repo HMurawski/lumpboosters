@@ -1,0 +1,131 @@
+.main-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    &__layer {
+        position: absolute;
+        background-color: wheat;
+        width: 120px;
+        height: 120px;
+      
+    
+    }
+    &__layer-1 {
+        top: 0;
+        left: 27%;
+        height: 180px;
+        width: 250px;
+        cursor: pointer;
+        background-color: transparent;
+        
+    }
+    &__layer-2 {
+        top: 0;
+        left: 40%;
+        height: 130px;
+        width: 200px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    &__layer-3 {
+        width: 230px;
+        height: 100px;
+        top: 8%;
+        right: 38%;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    &__layer-4 {
+        width: 140px;
+        height: 200px;
+        top: 8%;
+        right: 31%;
+        background-color: transparent;
+    }
+    &__layer-5 {
+        height: 150px;
+        width: 150px;
+        top: 32%;
+        left: 30%;
+        background-color: transparent;
+    }  
+    &__layer-6 {
+        height: 155px;
+        width: 155px;
+        top: 30%;
+        left: 37%;
+        background-color: transparent;
+    }
+    &__layer-7 {
+        height: 220px;
+        width: 160px;
+        top: 26%;
+        left: 53%;
+        background-color: transparent;
+    }  
+    &__layer-8 {
+        height: 108px;
+        width: 150px;
+        top: 21%;
+        left: 43%;
+        background-color: transparent;
+    }
+    &__layer-9 {
+        height: 108px;
+        width: 155px;
+        top: 55%;
+        left: 33%;
+        background-color: transparent;
+    }
+    &__layer-10 {
+        height: 108px;
+        width: 80px;
+        top: 64%;
+        left: 42%;
+        background-color: transparent;
+    } 
+    &__layer-11 {
+        height: 120px;
+        width: 90px;
+        top: 70%;
+        left: 46%;
+        background-color: transparent;
+    }  
+    &__layer-12 {
+        height: 90px;
+        width: 140px;
+        top: 80%;
+        left: 51%;
+        background-color: transparent;
+    } 
+    &__layer-13 {
+        height: 110px;
+        width: 140px;
+        top: 77%;
+        left: 59%;
+        background-color: transparent;
+    } 
+    &__layer-14 {
+        height: 80px;
+        width: 127px;
+        top: 65%;
+        left: 53%;
+        background-color: transparent;
+    }  
+    &__layer-15 {
+        height: 150px;
+        width: 150px;
+        top: 48%;
+        left: 62%;
+        background-color: transparent;
+    }   
+    &__layer-16 {
+        height: 110px;
+        width: 150px;
+        top: 47%;
+        left: 47%;
+        background-color: transparent;
+    } 
+}
